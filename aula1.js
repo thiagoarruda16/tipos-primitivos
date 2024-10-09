@@ -1,6 +1,10 @@
-const numero1 = 10
-const numero2 = 20
+const pesquisa = "maça"
 
-const calc = numero1 - numero2
+switch(pesquisa){
+    case "maça": console.log("A maça custa R$ 5,00");break;
+    case "limao": console.log("O limao custa R$ 5,00");break;
+    default: console.log("Essa fruta esta indisponivel");
+    
+}
 
-console.log("O resultado é :" + calc)
+alert("Boas compras!")
